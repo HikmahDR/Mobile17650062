@@ -31,10 +31,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^1.0.0
+  # google_fonts: ^1.0.0
   flutter_svg: ^0.22.0
   simple_shadow: ^0.2.0
-
+  url_launcher: ^6.1.7
+#  url_launcher_android: ^6.0.22
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -66,14 +67,15 @@ flutter:
   assets:
   - images/adventure.png
   - images/fighting.png
+  - images/password.png
   - images/ps1.png
+  - images/resident.png
   - images/shooting.png
   - images/simulation.png
   - images/sport.png
-  - images/strategy.png
   - images/ssnewlogo.png
+  - images/strategy.png
   - images/username.png
-  - images/password.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
